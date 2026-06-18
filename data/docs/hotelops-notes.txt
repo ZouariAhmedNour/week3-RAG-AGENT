@@ -1,0 +1,5 @@
+HotelOps est une application de gestion de maintenance hôtelière.
+Le backend utilise Express, Prisma et PostgreSQL.
+Prisma sert d’ORM pour définir les modèles de données comme User, Role, Location et MaintenanceTicket.
+Le modèle MaintenanceTicket contient les informations liées aux tickets de maintenance : titre, description, priorité, statut, localisation et utilisateur assigné.
+L’objectif est de permettre à la réception, au chef maintenance et aux agents de suivre les incidents en temps réel.

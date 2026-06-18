@@ -1,0 +1,4 @@
+Prisma est utilisé pour communiquer avec PostgreSQL.
+Le fichier schema.prisma décrit les tables, les relations et les contraintes de la base de données.
+Après modification du schéma, on utilise les migrations Prisma pour appliquer les changements à la base.
+Dans HotelOps, Prisma permet de relier les tickets aux utilisateurs, aux localisations, aux catégories et aux statuts.
